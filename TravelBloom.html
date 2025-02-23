@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelBloom</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url("background.jpg") no-repeat center center/cover;
+      }
+      .navbar {
+        background: #333;
+        padding: 15px;
+        text-align: center;
+      }
+      .navbar a {
+        color: white;
+        margin: 15px;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      .container {
+        padding: 20px;
+        text-align: center;
+        color: white;
+      }
+      img {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+      }
+      form {
+        max-width: 400px;
+        margin: auto;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+      }
+      button {
+        padding: 10px;
+        margin-top: 10px;
+        background: #007bff;
+        color: white;
+        border: none;
+      }
+      .search-bar {
+        text-align: center;
+        margin: 20px;
+      }
+      .search-bar input {
+        width: 300px;
+        padding: 10px;
+      }
+      .social-links {
+        margin: 20px;
+      }
+      .social-links a {
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      .cta-button {
+        background: #ff9800;
+        padding: 15px 25px;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Search destinations..." />
+    </div>
+
+    <div id="home" class="container">
+      <h1>Explore the World with TravelBloom</h1>
+      <p>
+        Discover breathtaking destinations and immerse yourself in new cultures.
+      </p>
+      <a href="#book" class="cta-button">Book Now</a>
+    </div>
+
+    <div id="about" class="container">
+      <h2>About Us</h2>
+      <p>
+        At TravelBloom, we help travelers explore the world's most beautiful
+        places.
+      </p>
+    </div>
+
+    <div id="contact" class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>Beach Recommendation</h2>
+      <img src="beach1.jpg" alt="Beautiful Beach" />
+      <img src="beach2.jpg" alt="Sunset Beach" />
+    </div>
+
+    <div class="container">
+      <h2>Temple Recommendation</h2>
+      <img src="temple1.jpg" alt="Ancient Temple" />
+      <img src="temple2.jpg" alt="Temple at Night" />
+    </div>
+
+    <div class="container">
+      <h2>Travel Recommendation by Country</h2>
+      <img src="country1.jpg" alt="Popular Destination" />
+      <img src="country2.jpg" alt="Scenic Spot" />
+    </div>
+
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+  </body>
+</html>
